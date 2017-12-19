@@ -1,6 +1,9 @@
 # linux_alias
 Common aliases for linux
 
+Add to /etc/bash.bashrc:
+
+```
 alias serverl='ssh -i ~/CHAVE.pem ubuntu@IP'
 alias addar='git add -A'
 alias pushar='git push origin develop'
@@ -10,3 +13,4 @@ alias preparar='rake db:prepare'
 comitar() {
     git commit -m "$1"
 }
+```
